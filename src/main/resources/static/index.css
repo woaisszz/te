@@ -1,0 +1,35 @@
+.top-area{
+  background: radial-gradient(circle, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.75)), url('image/gplaypattern.png');
+}
+#section-promo {
+  text-align: center;
+  position: relative;
+}
+#section-promo.homepage-promo {
+  height: 380px;
+}
+#section-promo h1{
+  font-size: 40px;
+  padding: 55px 0 50px;
+  text-align: center;
+  display: block;
+  font-family: Roboto;
+}
+#section-promo .productbar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#section-promo .productbar li {
+  display: inline-block;
+}
+.nav>li {
+  position: relative;
+}
